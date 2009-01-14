@@ -1,0 +1,366 @@
+/* Contains styles for common elements: forms, tables, etc */
+
+/*------------------------------------------------------------------------------------
+  @group Type
+------------------------------------------------------------------------------------*/
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:1em;
+  line-height:1.5;
+  color: #164B2B;
+}
+
+a{
+  color: #5CAD35;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover{ color: #164B2B; }
+
+h1{
+  margin:15px 0;
+  font-size:20px;
+  color:#ababab;
+  font-weight:normal;
+}
+h2{
+  margin:1em 0 0.5em 0;
+  font-size:1em;
+}
+.sidebar h2{
+  font-size:12px;
+}
+
+h3{
+  font-size:12px;
+  margin-bottom:-10px;
+}
+.sidebar h3:first-child{
+  margin-top:20px;
+}
+
+h2.go a{
+  padding-right:18px;
+  background:url(../images/go_arrow.gif) 100% 60% no-repeat;
+}
+
+ul.bigpicture{
+  margin:15px 0 20px 0;
+  font-size:14px;
+  font-weight:bold;
+  color:#fff;
+}
+ul.bigpicture li{
+  margin:5px 0 5px 10px;
+  padding:3px 0 1px 25px;
+  list-style-type:none;
+  background:url(../images/checkmark.png) 0 0 no-repeat;
+}
+
+ul.sitelist{
+  margin:15px 0;
+}
+ul.sitelist li{
+  list-style-type:square;
+  margin-left:20px;
+}
+ul.sitelist li a span.desc{
+  font-weight:normal;
+  color:#fff;
+}
+
+.rule{
+  margin:15px 0;
+  height:2px;
+  font-size:1px;
+  background:url(../images/rule.gif) 0 0 repeat-x;
+}
+
+a.button, button{
+  display:inline-block;
+  margin-right:10px;
+  padding:6px 20px 6px 12px;;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border:none;
+  font-size:11px;
+  color:#ccc;
+  background:url(../images/go_arrow-btn.gif) 95% 55% no-repeat #333;
+  cursor:pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:bold;
+}
+a.button:hover, button:hover, .solid-banner a.button{
+  color:#000;
+  background-color:#ccc;
+  background-image:url(../images/go_arrow-btn-inverse.gif)
+}
+
+.figure{
+  margin:1em 0;
+}
+.figure img{
+  padding:1px;
+  border:1px solid #666;
+}
+
+dl.results{
+  margin:1em 0;
+}
+dl.results dt{
+  float:left;
+  margin:0 0;
+  width:150px;
+  color:#000;
+}
+dl.results dd{
+  margin:1em 0 1em 160px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Tables
+------------------------------------------------------------------------------------*/
+
+table.listing{
+  margin:1em 0;
+  width:100%;
+  border-spacing:none;
+  border-collapse:collapse;
+  border-top:2px solid #333;
+}
+table.listing th, table.listing td{
+  padding:8px 5px;
+  border-bottom:1px solid #ccc;
+}
+table.listing th{
+  text-align:left;
+}
+
+/* @end */
+
+
+
+/*------------------------------------------------------------------------------------
+  @group Work Feature
+------------------------------------------------------------------------------------*/
+
+.work-feature img{
+  float:right;
+  margin-left:40px;
+}
+
+.work-feature h2{
+  margin:15px 0;
+  line-height:30px;
+}
+.work-feature h2 a{
+  display:block;
+  font-size:32px;
+}
+
+.work-feature .goactions{
+  margin:15px 0;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Work Listing
+------------------------------------------------------------------------------------*/
+
+ul.work{
+  margin:0 0 50px 0;
+}
+ul.work li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html ul.work li {height: 1%;}
+ul.work li {display:inline-block;}
+ul.work li {display: block;}
+ul.work li{
+  list-style-type:none;
+  position:relative;
+  margin:45px 0 -20px 0;
+  border-top:1px solid #adadad;
+}
+ul.work li img{
+  float:left;
+  margin-top:-1px;
+  margin-bottom:50px;
+  border:2px solid #adadad;
+}
+ul.work li h3{
+  margin:0;
+  position:absolute;
+  top:-25px;
+  font-size:12px;
+  text-transform:uppercase;
+}
+ul.work li .description{
+  float:right;
+  width:460px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Masthead Blocks
+------------------------------------------------------------------------------------*/
+
+.mastheadblocks{
+  color:#aaa;
+}
+
+.mastheadblocks img.masthead{
+  margin-top:20px;
+  padding:1px;
+  border:1px solid #666;
+}
+
+.mastheadblocks h2{
+  margin:5px 0 -10px 0;
+  font-weight:normal;
+  color:#fff;
+}
+
+.mastheadblocks img.smallpic{
+  float:left;
+  margin-top:18px;
+  margin-right:15px;
+  margin-bottom:10px;
+  padding:1px;
+  border:1px solid #666;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Banners
+------------------------------------------------------------------------------------*/
+
+.solid-banner{
+  margin-top:-7px;
+  margin-bottom:15px;
+  padding:6px 0;
+  height:54px;
+  overflow:hidden;
+  background:url(../images/solidbanner_back.gif) 0 0 repeat-x;
+}
+
+.solid-banner h1{
+  float:left;
+  margin:0;
+  font-size:20px;
+  font-weight:bold;
+  color:#fff;
+  text-transform:uppercase;
+}
+.solid-banner p{
+  clear:left;
+  float:left;
+  margin:0;
+  font-size:12px;
+  font-weight:bold;
+  color:#999;
+  text-transform:uppercase;
+}
+.solid-banner a.action{
+  float:left;
+  margin:-18px 0 0 40px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Miscelaneous Shit
+------------------------------------------------------------------------------------*/
+
+.sidebar p.getstarted{
+  margin-top:-10px;
+  text-align:center;
+  font-size:12px;
+  color:#999;
+}
+.sidebar p.getstarted a{
+  display:block;
+  font-size:14px;
+}
+
+.price-promo{
+  margin:15px 0 25px 0;
+  width:282px;
+  height:119px;
+}
+.price-promo a{
+  display:block;
+  width:282px;
+  height:119px;
+  text-indent:-9999px;
+}
+.bannered .price-promo{
+  margin-top:25px;
+  text-indent:-9999px;
+}
+
+.training-799-promo{
+  background:url(../images/training/price_promo-799.gif) 0 0 no-repeat;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Forms
+------------------------------------------------------------------------------------*/
+
+dl.form{
+  margin:1em 0;
+}
+dl.form dt{
+  margin:0 0 0.5em;
+  font-weight:bold;
+  color:#fff;
+}
+dl.form dd{
+  margin:0;
+}
+
+input.textfield{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width:300px;
+  padding:5px;
+  background:#666;
+  border:1px solid #999;
+  border-top-color:#333;
+  border-left-color:#333;
+  color:#fff;
+}
+
+.form-actions{
+  margin:2em 0 1em 0;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Flash Messages
+------------------------------------------------------------------------------------*/
+
+.flash-messages{
+  padding:10px 0;
+  background:#fffcdc;
+  border-top:2px solid #ccc;
+}
+.flash-messages .flash{
+  width:880px;
+  margin:0 auto;
+  font-weight:bold;
+}
+
+/* @end */

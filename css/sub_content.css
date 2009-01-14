@@ -1,0 +1,108 @@
+/*------------------------------------------------------------------------------------
+  @group Person Feature
+------------------------------------------------------------------------------------*/
+
+#subcontent a{ color:#00588a; }
+#subcontent a:hover{ color:#000; }
+
+h2.best-talent{
+  margin:15px 0;
+  height:19px;
+  background:url(../images/heading_best-talent.gif) 0 0 no-repeat;
+  text-indent:-9999px;
+}
+
+.person-feature{
+  margin-bottom:15px;
+}
+.person-feature:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .person-feature {height: 1%;}
+.person-feature {display:inline-block;}
+.person-feature {display: block;}
+
+.person-feature .pic{
+  float:left;
+  margin-top:16px;
+  margin-left:-2px;
+  width:392px;
+  height:205px;
+  padding-top:10px;
+  padding-left:12px;
+}
+.person-feature .pic h3{ display:none; }
+.person-feature .justin{ background-image:url(../images/people/justin_back.gif); }
+.person-feature .kyle{ background-image:url(../images/people/kyle_back.gif); }
+.person-feature .rabble{ background-image:url(../images/people/rabble_back.gif); }
+.person-feature .matt{ background-image:url(../images/people/matt_back.gif); }
+.person-feature .courtenay{ background-image:url(../images/people/courtenay_back.gif); }
+.person-feature .rick{ background-image:url(../images/people/rick_back.gif); }
+.person-feature .giles{ background-image:url(../images/people/giles_back.gif); }
+.person-feature .foca{ background-image:url(../images/people/foca_back.gif); }
+.person-feature .jeremy{ background-image:url(../images/people/jeremy_back.gif); }
+
+.person-feature .profile{
+  float:right;
+  width:460px;
+}
+
+.person-feature h4{
+  margin:12px 0;
+  font-size:10px;
+  font-weight:normal;
+  text-transform:uppercase;
+}
+
+ul.repositories{
+  width:470px;
+  margin:1em 0 1em -5px;;
+}
+ul.repositories li{
+  list-style-type:none;
+  float:left;
+  margin:0 0 5px 5px;
+  width:214px;
+  height:24px;
+  padding:0 8px;
+  line-height:24px;
+  font-size:11px;
+  background:#c3e4f4;
+}
+ul.repositories li a{ display:block; }
+
+ul.links{
+  margin:15px 0;
+  height:21px;
+}
+ul.links li{
+  list-style-type:none;
+  display:inline;
+  margin:0;
+}
+ul.links li a{
+  float:left;
+  height:21px;
+  margin-right:15px;
+  text-indent:-9999px;
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+}
+ul.links li.twitter a{
+  width:79px;
+  background-image:url(../images/service-twitter.png);
+}
+ul.links li.flickr a{
+  width:60px;
+  background-image:url(../images/service-flickr.png);
+}
+ul.links li.blog a{
+  width:29px;
+  background-image:url(../images/service-blog.gif);
+}
+
+/* @end */

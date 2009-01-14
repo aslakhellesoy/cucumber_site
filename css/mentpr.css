@@ -1,0 +1,241 @@
+/*------------------------------------------------------------------------------------
+  @group Mentpr Specific Styles
+------------------------------------------------------------------------------------*/
+
+#mentpr_signup #header,
+#mentpr #header{ background-image:url(../images/header-rentp.gif); }
+
+#mentpr_signup h1 {
+  color: #333;
+  font-size:24px;
+}
+#mentpr h1{
+  color:#fff;
+  font-size:24px;
+} 
+#mentpr .price-promo{
+  background:url(../images/mentpr/promo.gif) 0 0 no-repeat;
+}
+
+ul.communication{
+  margin-left:0;
+  font-size:11px;
+  color:#999;
+}
+ul.communication li{
+  list-style-type:none;
+  margin:2px 0;
+  padding:0 0 0 20px;
+  background:url(../images/mentpr/commicon-web.gif) 0 50% no-repeat;
+}
+ul.communication li.web{ background-image:url(../images/mentpr/commicon-web.gif); }
+ul.communication li.email{ background-image:url(../images/mentpr/commicon-email.gif); }
+ul.communication li.instant_message{ background-image:url(../images/mentpr/commicon-im.gif); }
+ul.communication li.phone{ background-image:url(../images/mentpr/commicon-phone.gif); }
+
+ul.conferences{
+  margin-left:0;
+  font-size:11px;
+  color:#999;
+  text-transform:uppercase;
+}
+ul.conferences li{
+  margin-left:0;
+  list-style-type:none;
+}
+
+.bannered #content .inner{ 
+  position:relative; 
+  padding-top:25px;
+}
+.mentpr-banner{
+  position:absolute;
+  top:-8px;
+  left:-4px;
+  width:919px;
+  height:37px;
+  text-indent:-9999px;
+  background:url(../images/mentpr/banner.gif) 0 0 no-repeat;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group signup
+------------------------------------------------------------------------------------*/
+
+.frm label {
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin: 0.5em 0;
+}
+
+.frm input.textfield, .frm textarea {
+  font-size: 200%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid #aaa;
+  border-bottom-color: #ccc;
+  border-right-color: #ccc;
+  background: #eee;
+  color: #222;
+  width: 100%;
+  padding-left: 3px;
+}
+.frm input.short{
+  width:75px;;
+}
+.inverse dl.form input.textfield{
+  padding:0;
+}
+
+.frm textarea {
+  font-size: 120%;
+}
+
+.frm > p {
+  padding-bottom: 9px;
+}
+
+.frm span.help {
+  display:block;
+  color: #666;
+}
+
+.frm .actions {
+  float: right !important;
+}
+
+#mentpr_signup .column .twocol{
+  width:450px;
+  margin-left:-40px;
+}
+#mentpr_signup .column .twocol .column{
+  margin-left:40px;
+  width:120px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group User Badge
+------------------------------------------------------------------------------------*/
+
+.userbadge{
+  float:right;
+  margin-top:-4px;
+  padding:5px 10px;
+  background:#eee;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  font-size:11px;
+}
+.userbadge h4{
+  margin:0;
+  color:#000;
+}
+.userbadge p{
+  margin:0;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Orders
+------------------------------------------------------------------------------------*/
+
+.orders .order{
+  clear:both;
+  margin:1em 0;
+}
+
+.orders h4{
+  float:left;
+  width:60px;
+  margin:0 20px 0 0;
+  font-size:25px;
+  text-align:center;
+  border-right:1px solid #eee;
+}
+.orders h4 a{
+  color:#000;
+}
+.orders h4 span{
+  margin-top:-5px;
+  display:block;
+  font-size:10px;
+  text-transform:uppercase;
+  color:#999;
+}
+
+.orders h5{
+  margin:0;
+  font-size:12px;
+}
+.orders h5 a{
+  color:#000;
+}
+
+.orders p.price{
+  margin:0;
+  font-size:20px;
+}
+
+.orders .discount{
+  position:relative;
+  top:-3px;
+  font-size:11px;
+  color:#cc0000;
+  font-weight:bold;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Account Summary
+------------------------------------------------------------------------------------*/
+
+.account-summary{
+  margin-top:-15px;
+  padding:15px 10px 0 10px;
+  height:50px;
+  font-size:24px;
+  font-weight:bold;
+  border-bottom:1px solid #eee;
+  background:#f6f6f6;
+}
+.account-summary .balance{
+  float:left;
+  width:50%;
+}
+.account-summary .balance{
+  color:#666;
+  font-size:11px;
+  text-transform:uppercase;
+}
+.account-summary .balance span{
+  display:block;
+}
+.account-summary .balance strong{
+  margin-top:-5px;
+  float:left;
+  font-size:20px;
+  color:#000;
+}
+.account-summary .balance em{
+  float:left;
+  margin-top:3px;
+  margin-left:10px;
+  font-style:normal;
+  font-weight:normal;
+  color:#666;
+}
+
+.account-summary .newissue{
+  padding-top:3px;
+  text-transform:uppercase;
+  font-size:20px;
+  text-align:right;
+}
+
+/* @end */

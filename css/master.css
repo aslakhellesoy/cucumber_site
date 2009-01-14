@@ -1,0 +1,230 @@
+/* Contains master styles for main layout, typography and page styles */
+
+/*------------------------------------------------------------------------------------
+  @group Global Reset
+------------------------------------------------------------------------------------*/
+* {
+  padding:0;
+  margin:0;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 0; }
+li, dd { margin-left:5%; }
+fieldset { padding: .5em; }
+select option{ padding:0 5px; }
+
+.access{ display:none; } /* For accessibility related elements */
+.clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden; }
+a{ outline:none; }
+a img{ border:none; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .clearfix {height: 1%;}
+.clearfix {display:inline-block;}
+.clearfix {display: block;}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Main Layout
+------------------------------------------------------------------------------------*/
+
+body{
+  background-color:#ffffff;
+}
+
+ul#nav, #content .inner, #footer, #subcontent .inner{
+  margin:0 auto;
+  padding:0 15px;
+  width:880px;
+}
+
+#content{
+  padding:10px 0 20px 0;
+  overflow:hidden;
+  background:url(../images/content_back.gif) 0 0 repeat-x #C5D88A;
+}
+
+#subcontent{
+  padding:10px 0 20px 0;
+  color:#000;
+  overflow:hidden;
+  background:url(../images/subcontent_back.gif) 0 100% repeat-x #f2fbfe;
+  border-top:2px solid #b3cfdd;
+}
+
+.columns:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .columns {height: 1%;}
+.columns {display:inline-block;}
+.columns {display: block;}
+
+.columns .main{
+  float:left;
+  width:520px;
+}
+.columns .sidebar{
+  float:right;
+  width:280px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Header
+------------------------------------------------------------------------------------*/
+
+#header{
+  height:190px;
+  background:url(../images/cuke_logo.png) 50% 0 no-repeat #fff;
+}
+
+.navigation{
+  height:45px;
+  border-bottom:1px solid #e0e0e0;
+  background:url(../images/nav_back.png);
+}
+
+ul#nav li{
+  list-style-type:none;
+  float:left;
+  margin:0 0 0 10px;
+  padding:6px 0 0 0;
+  width:160px;
+  line-height:1.2;
+  border-top:3px solid #fff;
+}
+ul#nav li:first-child{ margin-left:0; }
+ul#nav li:hover{
+  border-top-color:#164B2B;
+}
+ul#nav li.selected{
+  border-top-color:#000;
+}
+ul#nav li h4{
+  margin:0;
+  font-size:1em;
+  text-transform:uppercase;
+}
+ul#nav li h4 a{
+  display:block;
+  color: #164B2B;
+}
+ul#nav li p{
+  margin:0;
+  font-size:0.7em;
+}
+ul#nav li p a{
+  display:block;
+  color: #5CAD35;
+  font-weight:normal;
+}
+ul#nav li:hover p a{ color:#164B2B; }
+ul#nav li.selected p a{ color:#999; }
+
+#header h2#logo, #header p.title{ display:none; }
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Footer
+------------------------------------------------------------------------------------*/
+
+#footer{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:11px;
+  line-height:1.2;
+}
+
+#footer p.copyright{
+  float:left;
+}
+
+ul#fnav{
+  float:right;
+  margin:11px -8px 11px 0;
+}
+ul#fnav li{
+  list-style-type:none;
+  float:left;
+  margin:0;
+  padding:0 8px;
+  border-left:1px solid #65b4d9;
+}
+ul#fnav li:first-child{ border:none; }
+ul#fnav li a{
+  font-weight:normal;
+  color:#0067a1;
+}
+ul#fnav li a:hover{ color:#000; }
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Columns
+------------------------------------------------------------------------------------*/
+
+.columns:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .columns {height: 1%;}
+.columns {display:inline-block;}
+.columns {display: block;}
+
+.columns .column{
+  float:left;
+  display:inline;
+}
+
+.threecol{
+  width:1040px;
+  margin-left:-80px;
+}
+.threecol .column{
+  margin-left:20px;
+  width:320px;
+}
+
+.twocol{
+  width:1040px;
+  margin-left:-140px;
+}
+.twocol .column{
+  margin-left:80px;
+  width:420px;
+}
+
+.twocol .twocol{
+  width:440px;
+  margin-left:-40px;
+}
+.twocol .twocol .column{
+  margin-left:40px;
+  width:180px;
+}
+
+/* @end */
+
+/*------------------------------------------------------------------------------------
+  @group Headers
+------------------------------------------------------------------------------------*/
+
+.mentor #header{ background-image:url(../images/header-mentor.gif); }
+
+/* @end */

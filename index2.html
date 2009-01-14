@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Cucumber - Making BDD fun</title>
+  <link rel="stylesheet" href="css/global.css" type="text/css" charset="utf-8" />
+  <!--[if IE 6]>
+    <link href="/css/ie6.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link href="/css/ie7.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script src="/js/scripts.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+<div id="header">
+  <div class="navigation">
+    <ul id="nav">
+      <li>
+        <h4><a href="http://github.com/aslakhellesoy/cucumber/wikis">Wiki</a></h4>
+        <p><a href="http://github.com/aslakhellesoy/cucumber/wikis">Detailed documentation</a></p>
+      </li>
+      <li>
+        <h4><a href="http://github.com/aslakhellesoy/cucumber/tree/master/examples/i18n">Examples</a></h4>
+        <p><a href="http://github.com/aslakhellesoy/cucumber/tree/master/examples/i18n">Use your mother tongue</a></p>
+      </li>
+      <li>
+        <h4><a href="http://rspec.lighthouseapp.com/projects/16211-cucumber/overview">Lighthouse</a></h4>
+        <p><a href="http://rspec.lighthouseapp.com/projects/16211-cucumber/overview">Feature requests and bugs</a></p>
+      </li>
+      <li>
+        <h4><a href="http://rubyforge.org/mail/?group_id=797">Mailing list</a></h4>
+        <p><a href="http://rubyforge.org/mail/?group_id=797">Ask questions</a></p>
+      </li>
+      <li>
+        <h4><a href="irc://irc.freenode.net/cucumber">IRC</a></h4>
+        <p><a href="irc://irc.freenode.net/cucumber">Get instant help</a></p>
+      </li>
+    </ul>
+  </div>
+  <h2 id="logo"><a href="/">Cucumber</a></h2>
+  <p class="title">We are a consultancy and web incubator collective based in Portland. We specialize in implementing big ideas.</p>
+</div><!-- /#header -->
+<div id="content">
+
+  <div class="inner">
+    <div class="columns threecol">
+      <div class="column first">
+        <h2>1: Describe behaviour in plain text</h2>
+        <img src="images/feature.png" alt="Feature" />
+      </div>
+
+      <div class="column middle">
+        <h2>2: Write a step definition in Ruby</h2>
+        <img src="images/calculator_steps.png" alt="Calculator Steps" />
+      </div>
+
+      <div class="column last">
+        <h2>3: Run and watch it fail</h2>
+        <img src="images/failing.png" alt="Failing output" />
+      </div>
+    </div>
+
+    <div class="columns threecol">
+      <div class="column first">
+        <h2>4. Write code to make the step pass</h2>
+        <img src="images/calculator.png" alt="Feature" />
+      </div>
+
+      <div class="column middle">
+        <h2>5. Run again and see the step pass</h2>
+        <img src="images/pending.png" alt="Pending output" />
+      </div>
+
+      <div class="column last">
+        <h2>6. Repeat 2-5 until green like a cuke</h2>
+        <img src="images/passing.png" alt="Passing output" />
+      </div>
+    </div>
+
+    <div class="columns twocol">
+      <div class="column first">
+        <h2>7 - &#x221E;: Write your app</h2>
+        <p>
+          Cucumber lets software development teams describe how software should behave in plain text.
+          The text is written in a business-readable domain-specific language and serves as documentation, 
+          automated tests and development-aid - all rolled into one format.
+        </p>
+        <p>
+          Cucumber works with Ruby, Java, .NET, Flex or web applications written in any language.
+          It has been translated to over 20 spoken languages.
+        </p>
+      </div>
+      <div class="column second">
+        <h2>Testimonials</h2>
+        	<blockquote>
+        		<p>My attention-span is short so I may be forgetting something but I think Cucumber could be the most important piece of software released in 2008 for Ruby-based developers.</p>
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://drnicwilliams.com/2008/10/31/newgem-100-all-thanks-to-cucumber/"><em>Dr Nic</em></a></p>
+
+
+        	<blockquote>
+        		<p>We are currently rolling out Cucumber to all projects within <span class="caps">BBC</span> Worldwide. We use it with great success in combination with Watir and Firewatir to automate our web acceptance tests. The natural language format is a great communication facilitator between all stakeholders.</p>
+        	</blockquote>
+
+
+        	<p>&#8212;Aidy Lewis</p>
+
+
+        	<blockquote>
+        		<p>If you&#8217;re looking for a higher level of abstraction in your tests, it&#8217;s definitely worth checking out.</p>
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://www.rubyinside.com/cucumber-the-latest-in-ruby-testing-1342.html"><em>Mike Gunderloy on Ruby Inside</em></a></p>
+
+
+        	<blockquote>
+        		<p>I finally looked into cucumber last week and immediately loved it.  Within a couple hours I had several features written for an existing application. By the end of the next day, our whole team was writing cucumber features, and enjoying it!  Cucumber seems to have brought back an excitement to testing that I haven&#8217;t felt for a while (since my first few weeks with RSpec).</p>
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://www.ruby-forum.com/topic/166392#730725"><em>Brandon Keepers</em></a></p>
+
+
+        	<blockquote>
+        		<p>Seeing what you guys are doing is just over-the-top cool. <span class="caps">BDD</span>
+        is great, Domain Driven Design is great. Stuff I wish I knew 20 years
+        ago.</p>
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://www.nabble.com/cucumber-docs-tt20370423.html#a20372905"><em>Tim Walker</em></a></p>
+
+
+        	<blockquote>
+        		<p>I started using Cucumber yesterday and it was really easy.</p>
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://barkingiguana.com/2008/11/11/getting-started-with-story-driven-development-for-rails-with-cucumber"><em>Craig Webster</em></a></p>
+
+
+        	<blockquote>
+        		<p>Cucumber allows you to write feature documentation in Plain Text. It means you could sit with your Client or Business Analyst to write down the features to be build on your application.</p>
+
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://advent2008.hackruby.com/past/2008/12/4/cool_as_a_cucumber/"><em>Lakshan Perera&#8217;s Ruby Advent 2008</em></a></p>
+
+
+        	<blockquote>
+        		<p>Cucumber is fast becoming the standard for acceptance testing in Rails. Cucumber is a <span class="caps">BDD</span> tool for specification of application features and user scenarios in plain text. It&#8217;s powered by Ruby, supports over 20 spoken languages, and integrates with other testing platforms.</p>
+
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://github.com/blog/258-github-rebase-7"><em>Nick Quaranto of the GitHub Team &#8211; Featured project in December 2008</em></a></p>
+
+
+        	<blockquote>
+        		<p>God <span class="caps">DAMN I</span> want a <span class="caps">BDD</span> tool for Python that runs as well as cucumber 0.0003 or whatever it&#8217;s called does already. Dammit.</p>
+
+        	</blockquote>
+
+
+        	<p>&#8212;<a href="http://twitter.com/Vaguery/statuses/1098306887"><em>Bill Tozier</em></a></p>
+
+
+        	<blockquote>
+        		<p>Continuous Integration Blueprints: How to Build an Army of Killer Robots With Hudson and Cucumber.</p>
+        	</blockquote>
+
+        	<p>&#8212;<a href="http://www.softwarebloat.com/2008/11/19/continuous-integration-blueprints-how-to-build-an-army-of-killer-robots-with-hudson-and-cucumber/"><em>Robert Boyd</em></a></p>
+      </div>
+    </div>
+  </div>
+</div><!-- /#content -->
+<div id="footer">
+  Cucumber was written by <a href="http://blog.aslakhellesoy.com/">Aslak Hellesøy</a>, 
+  Chief Scientist in <a href="http://bekk.no/">BEKK</a>. It has been extended and improved 
+  by <a href="https://www.ohloh.net/p/cucumber/factoids/1022583">over 40</a> developers
+  around the world.
+</div><!-- /#footer -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6729167-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*------------------------------------------------------------------------------------
+  @group Inverse Styles
+------------------------------------------------------------------------------------*/
+
+.inverse #content{
+  background:#fff;
+  border-top:3px solid #333;
+  color:#333;
+}
+.inverse #content h1{
+  margin-bottom:24px;
+  font-size:24px;
+  color:#333;
+}
+
+.inverse .rule{
+  height:0;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #eee;
+}
+
+/* @end */
