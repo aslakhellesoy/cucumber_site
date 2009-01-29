@@ -239,6 +239,9 @@ ul.work li .description{
   border:1px solid #666;
 }
 
+.centered {
+  text-align: center;
+}
 /* @end */
 
 /*------------------------------------------------------------------------------------
