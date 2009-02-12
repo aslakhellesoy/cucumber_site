@@ -375,7 +375,7 @@
      showgrid="false"
      inkscape:zoom="1.8777782"
      inkscape:cx="683.62602"
-     inkscape:cy="1078.9543"
+     inkscape:cy="1144.8579"
      inkscape:window-x="88"
      inkscape:window-y="22"
      inkscape:current-layer="g11" /><g
@@ -612,7 +612,10 @@
    height="34.508869"
    x="554.69812"
    y="-803.07672"
-   transform="scale(1,-1)" /><rect
+   transform="scale(1,-1)"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_jeff_dean.png"
+   inkscape:export-xdpi="90.000015"
+   inkscape:export-ydpi="90.000015" /><rect
    style="opacity:1;fill:#cee18a;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
    id="rect3037"
    width="12.953858"
@@ -649,7 +652,7 @@
      x="565.80048"
      y="-854.88971"
      sodipodi:role="line"
-     id="tspan3882">Making a case </tspan><tspan
+     id="tspan3882">Making a Case </tspan><tspan
      style="font-size:9px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
      x="565.80048"
      y="-843.63971"
