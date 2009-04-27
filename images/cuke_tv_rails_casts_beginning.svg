@@ -425,7 +425,19 @@
    x1="0"
    y1="0"
    x2="1"
-   y2="0" /></defs><sodipodi:namedview
+   y2="0" /><inkscape:perspective
+   id="perspective2705"
+   inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+   inkscape:vp_z="744.09448 : 526.18109 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_x="0 : 526.18109 : 1"
+   sodipodi:type="inkscape:persp3d" /><inkscape:perspective
+   id="perspective2774"
+   inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+   inkscape:vp_z="744.09448 : 526.18109 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_x="0 : 526.18109 : 1"
+   sodipodi:type="inkscape:persp3d" /></defs><sodipodi:namedview
      inkscape:window-height="847"
      inkscape:window-width="1335"
      inkscape:pageshadow="2"
@@ -438,9 +450,9 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="1.8777782"
-     inkscape:cx="693.71636"
-     inkscape:cy="998.81808"
+     inkscape:zoom="1.6651346"
+     inkscape:cx="640.06061"
+     inkscape:cy="1103.3958"
      inkscape:window-x="88"
      inkscape:window-y="22"
      inkscape:current-layer="g11" /><g
@@ -465,6 +477,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text25"
@@ -478,6 +491,7 @@
      id="tspan27"
      x="128.46941"
      y="-548.35718" /></text>
+
 
 
 
@@ -501,6 +515,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text33"
@@ -514,6 +529,7 @@
      id="tspan35"
      x="138.48701"
      y="-208.71259" /></text>
+
 
 
 
@@ -535,6 +551,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text3355"
@@ -550,6 +567,7 @@
      y="-492.99799"
      sodipodi:role="line"
      id="tspan3357">Cucumber</tspan></text>
+
 
 
 
@@ -640,22 +658,22 @@
    id="path3121" /><g
    transform="matrix(4.0210891,0,0,4.0210891,654.87514,795.57414)"
    id="g2982"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><path
      sodipodi:nodetypes="ccccccccc"
      id="path2984"
      style="fill:#cee18a;fill-opacity:1;fill-rule:nonzero;stroke:none"
      d="M 0,0 C 0,-5.683 -4.607,-10.291 -10.291,-10.291 L -46.615,-10.291 C -52.299,-10.291 -56.906,-5.683 -56.906,0 L -56.906,21.224 C -56.906,26.907 -52.299,31.514 -46.615,31.514 L -10.291,31.514 C -4.607,31.514 0,26.907 0,21.224 L 0,0 z" /></g><image
-   y="-907.26129"
-   x="446.31641"
-   id="image2625"
-   height="146.36525"
-   width="200.75999"
-   sodipodi:absref="/Users/aslakhellesoy/scm/cucumber_site/images/railscasts_beginning.png"
-   xlink:href="railscasts_beginning.png"
+   y="-900.53369"
+   x="443.91766"
+   id="image2776"
+   height="139.99036"
+   width="191.31999"
+   sodipodi:absref="/Users/aslakhellesoy/scm/cucumber_site/images/railscasts_more.png"
+   xlink:href="railscasts_more.png"
    transform="scale(1,-1)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><rect
    style="opacity:0.67669169;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -665,12 +683,12 @@
    x="554.61761"
    y="-900.52368"
    transform="scale(1,-1)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><g
    transform="matrix(4.0210891,0,0,4.0210891,654.87514,790.77414)"
    id="g2986"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><path
      sodipodi:nodetypes="ccccccccc"
@@ -684,7 +702,7 @@
    x="554.69812"
    y="-803.07672"
    transform="scale(1,-1)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><image
    y="-793.62311"
@@ -695,7 +713,7 @@
    sodipodi:absref="/Users/aslakhellesoy/scm/cucumber_site/images/railscasts_logo.png"
    xlink:href="railscasts_logo.png"
    transform="scale(1,-1)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><rect
    style="opacity:1;fill:#cee18a;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
@@ -704,7 +722,7 @@
    height="92.785789"
    x="632.88"
    y="785.3653"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><rect
    style="opacity:1;fill:#cee18a;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -713,7 +731,7 @@
    height="92.785789"
    x="435.00864"
    y="787.47412"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><text
    transform="scale(1,-1)"
@@ -722,7 +740,7 @@
    style="font-size:3.09163547px;line-height:125%;fill:#225c2b;fill-opacity:1;display:inline"
    x="556.63605"
    y="-873.90009"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><tspan
      style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
@@ -734,17 +752,33 @@
      x="556.63605"
      y="-859.15009"
      sodipodi:role="line"
-     id="tspan3884">Beginning with</tspan><tspan
+     id="tspan2700">More on</tspan><tspan
      style="font-size:9px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
      x="556.63605"
      y="-847.90009"
      sodipodi:role="line"
-     id="tspan2700">Cucumber</tspan></text>
+     id="tspan2549">Cucumber</tspan><tspan
+     style="font-size:9px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
+     x="556.63605"
+     y="-836.65009"
+     sodipodi:role="line"
+     id="tspan2551" /><tspan
+     style="font-size:9px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
+     x="556.63605"
+     y="-825.40009"
+     sodipodi:role="line"
+     id="tspan2553">Tables and</tspan><tspan
+     style="font-size:9px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
+     x="556.63605"
+     y="-814.15009"
+     sodipodi:role="line"
+     id="tspan2555">Scenario Outlines</tspan></text>
+
 
 <g
    transform="matrix(4.0210891,0,0,4.0210891,439.23257,876.12015)"
    id="g2990"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><path
      sodipodi:nodetypes="cccccccccccccccccc"
@@ -758,12 +792,12 @@
    x="595.09778"
    y="-781.13593"
    transform="scale(1,-1)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015" /><g
    id="g3002"
    transform="matrix(4.024282,0,0,4.024282,-1097.2302,-2326.0021)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><g
      id="g3004"><g
@@ -774,7 +808,7 @@
            d="M 388.498,802.781 C 384.852,802.771 381.894,799.814 381.883,796.172 L 381.883,796.172 L 383.979,796.172 C 383.98,798.65 386.015,800.686 388.498,800.687 L 388.498,800.687 L 425.449,800.687 C 427.927,800.686 429.961,798.651 429.965,796.168 L 429.965,796.168 L 432.06,796.167 C 432.05,799.812 429.092,802.771 425.452,802.781 L 425.452,802.781 L 388.498,802.781 z" /></g></g></g></g><g
    id="g3012"
    transform="matrix(4.024282,0,0,4.024282,-1097.2302,-2327.0419)"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><g
      id="g3014"><g
@@ -786,7 +820,7 @@
            d="M 381.883,774.139 C 381.895,770.495 384.853,767.536 388.494,767.526 L 388.494,767.526 L 425.448,767.526 C 429.094,767.536 432.05,770.493 432.06,774.133 L 432.06,774.133 L 429.967,774.133 C 429.965,771.656 427.929,769.62 425.447,769.619 L 425.447,769.619 L 388.495,769.619 C 386.018,769.62 383.982,771.656 383.979,774.139 L 383.979,774.139 L 381.883,774.139 z" /></g></g></g></g><g
    transform="matrix(4.024282,0,0,4.024282,535.41578,840.2608)"
    id="g3022"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><path
      id="path3024"
@@ -807,7 +841,7 @@
    id="g3046" /><g
    transform="matrix(4.024282,0,0,4.024282,547.52202,840.95016)"
    id="g3050"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><path
      id="path3052"
@@ -827,7 +861,7 @@
    style="font-size:3.09163547px;line-height:125%;fill:#225c2b;fill-opacity:1;display:inline"
    x="424.33167"
    y="-927.59082"
-   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_beginning.png"
+   inkscape:export-filename="/Users/aslakhellesoy/scm/cucumber_site/images/cuke_tv_rails_casts_more.png"
    inkscape:export-xdpi="90.000015"
    inkscape:export-ydpi="90.000015"><tspan
      style="font-size:18.54981422px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#225c2b;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Kozuka Mincho Pro B;-inkscape-font-specification:Kozuka Mincho Pro B Bold"
@@ -835,5 +869,6 @@
      y="-927.59082"
      sodipodi:role="line"
      id="tspan3951">CukeTV</tspan></text>
+
 
 </g></svg>
