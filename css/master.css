@@ -85,8 +85,8 @@ ul#nav, #content .inner, #footer, #subcontent .inner{
 ------------------------------------------------------------------------------------*/
 
 #header{
-  height:190px;
-  background:url(../images/cuke_logo.png) 50% 0 no-repeat #fff;
+  height:230px;
+  background:url(../images/cuke_logo.png) 50% 60px no-repeat #fff;
 }
 
 .navigation{

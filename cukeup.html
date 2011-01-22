@@ -1,0 +1,126 @@
+<!doctype html>  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>CukeUp!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <style>
+  html {
+    background: #1b0b00 }
+
+  body {
+    margin: 0;
+    padding-bottom: 30px;
+    font: 18px/1.4 "Helvetica Neue", "Lucida Grande", "Arial";
+    font-size: 18px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    color: #f1f2ba; }
+
+  * {
+    outline: none; }
+
+  em {
+    color: white; }
+
+  a img {
+    border: none !important; 
+    padding: 10px;}
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #71b72d;
+    -webkit-transition-property: opacity, -webkit-transform, color, background-color, padding, -webkit-box-shadow;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-out; }
+    a:hover {
+      opacity: 0.8; }
+
+  #logo {
+    display: block;
+    margin-bottom: 30px;
+    width: 506px;
+    height: 154px;
+    background: url(images/cukeup.png) 0 0 no-repeat;
+    text-indent: -99999px; }
+    #logo:hover {
+      opacity: 0.7; }
+    #logo:active {
+      opacity: 0.3; }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  #container {
+    margin: 0 auto;
+    padding-top: 80px;
+    width: 506px; }
+  </style>
+  <script>
+  function showEmailLink(user, domain, linkText) {return document.write("<a href=" + "mail" + "to:" + user + "@" + domain + ">" + user + "@" + domain + "<\/a>");}
+  </script>
+</head>
+
+<body>
+  <div id="wrapper"> 
+    <div id="container">
+      <a href="http://skillsmatter.com/event/home/cukeup" id="logo">CukeUp!</a> 
+
+      <section>
+        <p>
+        CukeUp! takes place in London on March 24th 2011. It's a one day conference packed with half hour talks about all things related to the <a href="http://cukes.info/">Cucumber</a> BDD tool and ecosystem.
+        </p>
+
+        <div style="float: right">
+        <a alt="Skillsmatter" href="http://skillsmatter.com/event/home/cukeup"><img src="images/skillsmatter.png"></a>
+        </div>
+        
+        <p>
+        CukeUp! is organized by Skills Matter and Aslak Hellesøy, the creator of Cucumber. Sign up at the <a href="http://skillsmatter.com/event/home/cukeup">Skills Matter web site</a>.
+        </p>
+        
+        <p>
+        Talks will cover topics like:
+        </p>
+
+        <ul>
+          <li>Cucumber basics</li>
+          <li>How to keep Cucumber features maintainable and fast</li>
+          <li>Outside-in Development and BDD basics</li>
+          <li>Browser testing of Ruby, Java, .NET or PHP apps</li>
+          <li>Related tools and techniques</li>
+          <li>Keep the team involved with a ubiquitous language</li>
+        </ul>
+
+        <p>
+        This mixture of technical and non-technical talks should be beneficial for programmers, testers and people who write requirements. 
+        </p>
+
+        <p>
+        CukeUp! is currently accepting talk proposals, which can be sent to <script>showEmailLink("cukeup","cukes.info");</script>.
+        Please include a talk title, synopsis, prerequisites, tags and send this information along with a short bio, twitter name and your picture.
+        </p>
+      </section>
+    
+      <footer>
+
+      </footer>
+    </div>
+  </div>
+  <script>
+   var _gaq = [['_setAccount', 'UA-6729167-1'], ['_trackPageview']];
+   (function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+   })(document, 'script');
+  </script>
+  
+</body>
+</html>
